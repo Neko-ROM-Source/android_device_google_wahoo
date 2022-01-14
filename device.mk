@@ -874,3 +874,7 @@ PRODUCT_PACKAGES += \
 # Shims
 PRODUCT_PACKAGES += \
     lib-imsvtshim
+
+# AiAi Allowlist
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/aiai_allowlist.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/aiai_allowlist.xml
